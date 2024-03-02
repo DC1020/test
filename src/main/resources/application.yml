@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://172.19.186.180/test
+      username: test
+      password: 123456
