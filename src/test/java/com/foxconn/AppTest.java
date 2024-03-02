@@ -17,4 +17,9 @@ public class AppTest {
         jdbcTemplate.execute("select * from tbl_user");
     }
 
+    @Test
+    public void test02(){
+        jdbcTemplate.execute("insert into tbl_user(name, age) values ('zs', 23)");
+    }
+
 }
